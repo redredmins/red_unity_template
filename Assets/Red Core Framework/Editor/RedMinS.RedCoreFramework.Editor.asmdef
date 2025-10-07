@@ -1,0 +1,16 @@
+{
+    "name": "RedMinS.M.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e022c4710c5f342fbba3e86a7575ee04"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
