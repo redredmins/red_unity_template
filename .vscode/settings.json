@@ -51,6 +51,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "RedTemplate.sln",
+    "dotnet.defaultSolution": "RedTemplate.slnx",
     "dotnet.preferCSharpExtension": true
 }

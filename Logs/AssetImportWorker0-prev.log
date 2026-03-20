@@ -1,16 +1,18 @@
-Unity Editor version:    6000.0.57f1 (b7b9860b7bbd)
-Branch:                  6000.0/staging
+Unity Editor version:    6000.3.10f1 (e35f0c77bd8e)
+Branch:                  6000.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 15.6 (Build 24G84)
-Darwin version:          24.6.0
+macOS version:           Version 26.2 (Build 25C56)
+Darwin version:          25.2.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Using pre-set license
+Date:                    2026-02-26T12:44:49Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mins" at "2026-02-26T12:44:49.445085Z"
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/6000.0.57f1/Unity.app/Contents/MacOS/Unity
+/Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
@@ -21,7 +23,9 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61161
+58255
+-licensingIpc
+LicenseClient-mins
 -job-worker-count
 4
 -background-job-worker-count
@@ -32,6 +36,14 @@ Logs/AssetImportWorker0.log
 Successfully changed project path to: /Users/mins/Dev/RedTemplate
 /Users/mins/Dev/RedTemplate
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
     "memorysetup-bucket-allocator-block-size=33554432"
@@ -52,43 +64,54 @@ Successfully changed project path to: /Users/mins/Dev/RedTemplate
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-    "memorysetup-allocator-temp-initial-block-size-main=262144"
-    "memorysetup-allocator-temp-initial-block-size-worker=262144"
-    "memorysetup-temp-allocator-size-background-worker=32768"
-    "memorysetup-temp-allocator-size-job-worker=262144"
-    "memorysetup-temp-allocator-size-preload-manager=33554432"
-    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
-    "memorysetup-temp-allocator-size-audio-worker=65536"
-    "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8723931328]  Target information:
+Player connection [8469310528]  Target information:
 
-Player connection [8723931328]  * "[IP] 10.117.35.230 [Port] 0 [Flags] 2 [Guid] 2365633901 [EditorId] 2365633901 [Version] 1048832 [Id] OSXEditor(0,MinSs-MacBook-Pro-16.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8469310528]  * "[IP] 192.168.0.38 [Port] 0 [Flags] 2 [Guid] 564893926 [EditorId] 564893926 [Version] 1048832 [Id] OSXEditor(0,MinSs-MacBook-Pro-16.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8723931328]  * "[IP] 192.168.0.26 [Port] 0 [Flags] 2 [Guid] 2365633901 [EditorId] 2365633901 [Version] 1048832 [Id] OSXEditor(0,MinSs-MacBook-Pro-16.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8469310528]  * "[IP] 192.168.0.26 [Port] 0 [Flags] 2 [Guid] 564893926 [EditorId] 564893926 [Version] 1048832 [Id] OSXEditor(0,MinSs-MacBook-Pro-16.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8723931328] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8723931328] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8469310528]  * "[IP] 169.254.14.235 [Port] 0 [Flags] 2 [Guid] 564893926 [EditorId] 564893926 [Version] 1048832 [Id] OSXEditor(0,MinSs-MacBook-Pro-16.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8469310528]  * "[IP] 192.168.9.174 [Port] 0 [Flags] 2 [Guid] 564893926 [EditorId] 564893926 [Version] 1048832 [Id] OSXEditor(0,MinSs-MacBook-Pro-16.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8469310528] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8469310528] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 4
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
 Library Redirect Path: Library/
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              7c87a7b9ad4644d198de51583d3e2ecd
+  Correlation Id:          fd97a05280b240bd1c84daa0c9bb1f28
+  External correlation Id: 3186965226967336724
+  Machine Id:              e3a26noi9J7rjxVUt6eOlNGf0nM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mins" (connect: 0.00s, validation: 0.00s, handshake: 0.64s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mins-notifications" at "2026-02-26T12:44:50.083836Z"
+[Licensing::Module] Licensing Background thread has ended after 0.64s
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 14569543840624-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 1.22 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 6000.0.57f1 (b7b9860b7bbd)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.57f1/Unity.app/Contents/Resources/UnitySubsystems
+Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/mins/Dev/RedTemplate/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
  preferred device: Apple M1 Pro (high power)
@@ -96,66 +119,78 @@ Metal devices available: 1
 0: Apple M1 Pro (high power)
 Using device Apple M1 Pro (high power)
 Initializing Metal device caps: Apple M1 Pro
+Mac GPU Family: 2
+Apple GPU Family: 7
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.57f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.57f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/6000.0.57f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/Resources/Scripting/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/6000.0.57f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/6000.0.57f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/6000.0.57f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.009038 seconds.
-- Loaded All Assemblies, in  0.593 seconds
+Register platform support module: /Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: /Applications/Unity/Hub/Editor/6000.3.10f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.3.10f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.002979 seconds.
+- Loaded All Assemblies, in  0.364 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
+[usbmuxd] Attached: 9305 00008110-0002651834E1401E
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 86 ms
+An ADB process has shut down when we were accessing it, the following System.ArgumentOutOfRangeException has been thrown: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index.
+Android Extension - Scanning For ADB Devices 48 ms
 Native extension for OSXStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.457 seconds
-Domain Reload Profiling: 1050ms
-	BeginReloadAssembly (329ms)
+- Finished resetting the current domain, in  0.478 seconds
+Domain Reload Profiling: 842ms
+	BeginReloadAssembly (123ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (40ms)
+	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (165ms)
-		LoadAssemblies (333ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (159ms)
+		LoadAssemblies (123ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (157ms)
-			TypeCache.Refresh (156ms)
-				TypeCache.ScanAssembly (144ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (136ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (457ms)
+	FinalizeReload (478ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (427ms)
+		SetupLoadedEditorAssemblies (443ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (220ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (95ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
+			InitializePlatformSupportModulesInManaged (183ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (121ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
+[CoreBusinessMetrics] Unexpected thread when updating session info.
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.867 seconds
-Refreshing native plugins compatible for Editor in 1.94 ms, found 2 plugins.
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.680 seconds
+Refreshing native plugins compatible for Editor in 0.14 ms, found 1 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
@@ -163,50 +198,37 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@ba18377e2205/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:142)
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@ba18377e2205/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
-
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.701 seconds
-Domain Reload Profiling: 1569ms
-	BeginReloadAssembly (126ms)
+- Finished resetting the current domain, in  0.656 seconds
+Domain Reload Profiling: 1335ms
+	BeginReloadAssembly (108ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (41ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (32ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (660ms)
-		LoadAssemblies (553ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (500ms)
+		LoadAssemblies (404ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (169ms)
-			TypeCache.Refresh (142ms)
-				TypeCache.ScanAssembly (121ms)
-			BuildScriptInfoCaches (19ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (120ms)
+				TypeCache.ScanAssembly (102ms)
+			BuildScriptInfoCaches (25ms)
 			ResolveRequiredComponents (6ms)
-	FinalizeReload (702ms)
+	FinalizeReload (656ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (479ms)
+		SetupLoadedEditorAssemblies (502ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
+			InitializePlatformSupportModulesInManaged (22ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (94ms)
-			ProcessInitializeOnLoadAttributes (323ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (325ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -217,93 +239,581 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launching external process: /Applications/Unity/Hub/Editor/6000.0.57f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launching external process: /Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/Helpers/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4121 unused Assets / (3.4 MB). Loaded Objects now: 4826.
-Memory consumption went from 112.2 MB to 108.8 MB.
-Total: 6.864334 ms (FindLiveObjects: 1.256417 ms CreateObjectMapping: 0.173292 ms MarkObjects: 3.973458 ms  DeleteObjects: 1.460625 ms)
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4682 unused Assets / (3.7 MB). Loaded Objects now: 5502.
+Memory consumption went from 118.8 MB to 115.1 MB.
+Total: 7.401291 ms (FindLiveObjects: 0.610708 ms CreateObjectMapping: 0.147750 ms MarkObjects: 5.394916 ms  DeleteObjects: 1.247417 ms)
 
-[usbmuxd] Attached: 4612 00008110-0002651834E1401E
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x321d93000 may have been prematurely finalized
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.727 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@ba18377e2205/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
-System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:142)
+Received Import Request.
+  Time since last request: 3570514.046602 seconds.
+  path: Assets/1_Graphics/Settings/URP-HighFidelity.asset
+  artifactKey: Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/1_Graphics/Settings/URP-HighFidelity.asset using Guid(7b7fd9122c28c4d15b667c7040e3b3fd) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '5f4e67007423dde338a0a903cde6ec97') in 0.072305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@ba18377e2205/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '9e353b3bcb0850a20bfe32d14f3f888c') in 0.007157875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.600 seconds
-Domain Reload Profiling: 1329ms
-	BeginReloadAssembly (210ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (64ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (451ms)
-		LoadAssemblies (388ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (142ms)
-			TypeCache.Refresh (30ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (104ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (600ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (463ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (88ms)
-			ProcessInitializeOnLoadAttributes (305ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4119 unused Assets / (3.3 MB). Loaded Objects now: 4840.
-Memory consumption went from 131.9 MB to 128.6 MB.
-Total: 5.966667 ms (FindLiveObjects: 0.248208 ms CreateObjectMapping: 0.120917 ms MarkObjects: 4.434917 ms  DeleteObjects: 1.162125 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/RedCoreFramework/Runtime/RedMinS.RedCoreFramework.Runtime.asmdef
+  artifactKey: Guid(0c65c7c5316044aa9a881c872e14d1b7) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/RedCoreFramework/Runtime/RedMinS.RedCoreFramework.Runtime.asmdef using Guid(0c65c7c5316044aa9a881c872e14d1b7) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '4bddf023fcbc16054e2a5947109e5fda') in 0.002672333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-Prepare: number of updated asset objects reloaded= 0
-[usbmuxd] Detached: 4612 00008110-0002651834E1401E
-[usbmuxd] Attached: 4613 00008110-0002651834E1401E
-[usbmuxd] Detached: 4613 00008110-0002651834E1401E
-[usbmuxd] Attached: 4614 00008110-0002651834E1401E
-[usbmuxd] Detached: 4614 00008110-0002651834E1401E
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'f73061d9ae9d12c40271acf8a258a848') in 0.001398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/RedCoreFramework/Runtime/Data/ConfigString.cs
+  artifactKey: Guid(3a1b760059bb3438eb5e214ef3b52d3e) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/RedCoreFramework/Runtime/Data/ConfigString.cs using Guid(3a1b760059bb3438eb5e214ef3b52d3e) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '51e49a98a90d133495431e6d4ef8307a') in 0.003558208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph
+  artifactKey: Guid(f63d574838ccfb44f84acc05fed0af48) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph using Guid(f63d574838ccfb44f84acc05fed0af48) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '9b5c6932938c25bc5b7779ce1c8f04b0') in 0.011215166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/DOTween.dll.mdb
+  artifactKey: Guid(4f007001a22b3d24dae350342c4d19c8) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Plugins/Demigiant/DOTween/DOTween.dll.mdb using Guid(4f007001a22b3d24dae350342c4d19c8) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '811f081dc374007612f73cd710459e09') in 0.001500667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/5_Scripts/GitHubTemplateGuide.cs
+  artifactKey: Guid(1fbd4a63cd701467ba853ae4b2be2eac) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/5_Scripts/GitHubTemplateGuide.cs using Guid(1fbd4a63cd701467ba853ae4b2be2eac) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'b5b683263afb0b77c2fd0d0fe896e78b') in 0.001750375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/RedCoreFramework/Runtime/Core/MobileUIManager.cs
+  artifactKey: Guid(537ebd47b3d2848c3927625118687da8) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/RedCoreFramework/Runtime/Core/MobileUIManager.cs using Guid(537ebd47b3d2848c3927625118687da8) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '6b741c197f124d8521705ed67c099788') in 0.001598125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/1_Graphics/Animations/UIFade.controller
+  artifactKey: Guid(e66ce33598ef2409696cef09767e67b0) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/1_Graphics/Animations/UIFade.controller using Guid(e66ce33598ef2409696cef09767e67b0) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '328ff307a00c35c1a71fc4487aaf1412') in 0.003628209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/5_Scripts/Editorrr/FrameworkSetupTool.cs
+  artifactKey: Guid(074a6ef989eef4cdf88d85e0be51393f) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/5_Scripts/Editorrr/FrameworkSetupTool.cs using Guid(074a6ef989eef4cdf88d85e0be51393f) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'b663c7380ad991b6d57e37a376088642') in 0.00124575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader
+  artifactKey: Guid(0178fcb869bafef4690d177d31d17db8) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader using Guid(0178fcb869bafef4690d177d31d17db8) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '0c49d42f493de75d5c5f06ad3a45aca9') in 0.002252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph
+  artifactKey: Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph using Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'd94f4e451ecbfdb00af51d2ca7640cdf') in 0.00383325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/1_Graphics/Settings/URP-Balanced-Renderer.asset
+  artifactKey: Guid(e634585d5c4544dd297acaee93dc2beb) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/1_Graphics/Settings/URP-Balanced-Renderer.asset using Guid(e634585d5c4544dd297acaee93dc2beb) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '032e015972068f5e12031f8fa8af9452') in 0.015009417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'd5a99ead7113396b05d211c76e88033e') in 0.002094292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/RedCoreFramework/Runtime/Features/UI/UIGaugeBar.cs
+  artifactKey: Guid(33c050e516a7e458fba526b6e61f0e49) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/RedCoreFramework/Runtime/Features/UI/UIGaugeBar.cs using Guid(33c050e516a7e458fba526b6e61f0e49) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'ffb791d2fae1a2058a37881e2f0abd19') in 0.001861416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/RedCoreFramework/Runtime/Features/Inventory/ItemData.cs
+  artifactKey: Guid(b8213e9d09ae2474ea13e786d1825231) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/RedCoreFramework/Runtime/Features/Inventory/ItemData.cs using Guid(b8213e9d09ae2474ea13e786d1825231) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'd37aef90b945d1e997c49358fe622d5c') in 0.001981709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs
+  artifactKey: Guid(a060394c03331a64392db53a10e7f2d1) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs using Guid(a060394c03331a64392db53a10e7f2d1) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '67b4c6d5e3e8acd3a2c31d92d696d6bb') in 0.001769583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs
+  artifactKey: Guid(b766d08851589514b97afb23c6f30a70) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs using Guid(b766d08851589514b97afb23c6f30a70) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '53e991ba1c73711aad4f2a43b6942745') in 0.001820458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '470d05660f279143dfe81b32b1ef9b2b') in 0.002036625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'f3772c3b05568015c9ae7ec098caf768') in 0.002004708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/RedCoreFramework/Runtime/Features/UI/UIImageRadioButton.cs
+  artifactKey: Guid(19a7a67dec1984dd0b26d781f0f87a04) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/RedCoreFramework/Runtime/Features/UI/UIImageRadioButton.cs using Guid(19a7a67dec1984dd0b26d781f0f87a04) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'e6b3bed5d31caa709b1bef0e71835cb7') in 0.001609375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/RedCoreFramework/Runtime/Features/Input/UserActions.inputactions
+  artifactKey: Guid(8916c19fc27364528afa78f5bc57dd55) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/RedCoreFramework/Runtime/Features/Input/UserActions.inputactions using Guid(8916c19fc27364528afa78f5bc57dd55) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'deed9ca286cae5d1c4da55c84f801b8b') in 0.108345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll.mdb
+  artifactKey: Guid(8f46310a8b0a8f04a92993c37c713243) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll.mdb using Guid(8f46310a8b0a8f04a92993c37c713243) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '73730bb7eaaba36bbb3d0019d23eb717') in 0.001657291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/5_Scripts/Editor/ShowOnlyDrawer.cs
+  artifactKey: Guid(3cc2317f404944dde996147b64f932de) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/5_Scripts/Editor/ShowOnlyDrawer.cs using Guid(3cc2317f404944dde996147b64f932de) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '7103b07a10124d52ca4c0adaca5e510a') in 0.001772292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs
+  artifactKey: Guid(e944529dcaee98f4e9498d80e541d93e) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs using Guid(e944529dcaee98f4e9498d80e541d93e) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'f5212b0c31ac6ff514c56883912fb8ca') in 0.001467917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/RedCoreFramework/Runtime/Data/StaticData/uiString_en.json
+  artifactKey: Guid(614aff5ba3a4248a696b75580213efd7) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/RedCoreFramework/Runtime/Data/StaticData/uiString_en.json using Guid(614aff5ba3a4248a696b75580213efd7) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '71d7dcc1cc09160de85e09163608afa7') in 0.001818708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/1_Graphics/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/1_Graphics/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '702531ae8f04073ef45a3e8dc88b66d4') in 0.030844584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/RedCoreFramework/Runtime/Features/UI/UIEffect.cs
+  artifactKey: Guid(4d9426a7971024608b4b34b71b334b6a) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/RedCoreFramework/Runtime/Features/UI/UIEffect.cs using Guid(4d9426a7971024608b4b34b71b334b6a) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '12b957d196dbb18818fc7380875deb34') in 0.001785416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '61f57f1cb8f193dc2fb97d388bed3136') in 0.005791167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/RedCoreFramework/Runtime/Features/UI/UILocalizedImage.cs
+  artifactKey: Guid(4cf1ac735445143db9ae65de9ba6121c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/RedCoreFramework/Runtime/Features/UI/UILocalizedImage.cs using Guid(4cf1ac735445143db9ae65de9ba6121c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '8880fccae174b44bfed612f47c392e4f') in 0.00165175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png
+  artifactKey: Guid(519694efe2bb2914788b151fbd8c01f4) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png using Guid(519694efe2bb2914788b151fbd8c01f4) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '274ee0ff527f4fc1427f6c4af4d9d690') in 0.025100958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/RedCoreFramework/Runtime/Utilities/Componnents/ObjectSpawner.cs
+  artifactKey: Guid(b25668961267d43d08a301a7a3b7411b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/RedCoreFramework/Runtime/Utilities/Componnents/ObjectSpawner.cs using Guid(b25668961267d43d08a301a7a3b7411b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '02398eefc3eb76757c8be7d36d4d2b9b') in 0.001755042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png
+  artifactKey: Guid(61521df2e071645488ba3d05e49289ae) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png using Guid(61521df2e071645488ba3d05e49289ae) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '3f863ee875cbf75a5d68668e63c3f900') in 0.0041425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000749 seconds.
+  path: Assets/1_Graphics/UI Sprites/_rect.png
+  artifactKey: Guid(1a0067ac337d242539384e672445da56) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/1_Graphics/UI Sprites/_rect.png using Guid(1a0067ac337d242539384e672445da56) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '3eaf36086fcd4524033e0cc17aed670b') in 0.007354959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules/DOTween.Modules.asmdef
+  artifactKey: Guid(cae87aa96b0cc4ded9b6c9433460dd6b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules/DOTween.Modules.asmdef using Guid(cae87aa96b0cc4ded9b6c9433460dd6b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '8b0b22c4aaeed810744452fd438ad66f') in 0.002504208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/3_DataTables/_sample_table.txt
+  artifactKey: Guid(8353e53e4e527473dbc91f18c4d36815) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/3_DataTables/_sample_table.txt using Guid(8353e53e4e527473dbc91f18c4d36815) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'b3a01b173407aba044ac2d484286bab1') in 0.002071125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '3de11995c4bd18c58c95e265f9cf3515') in 0.007556542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/1_Graphics/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/1_Graphics/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '0b364746c2d62a34d3fc60daabaf424c') in 0.002404959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/5_Scripts/PackageManagerSetup/assembly_definitions.cs
+  artifactKey: Guid(79042d438c7af43eba7d6ba0018c5d07) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/5_Scripts/PackageManagerSetup/assembly_definitions.cs using Guid(79042d438c7af43eba7d6ba0018c5d07) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '0cbd3a102c3b6b83ec74e2960f365ea0') in 0.001442584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '0d97094fdb176de2d9109ac1df675c1e') in 0.002036625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'c3253daf7abf84c914531b7a46227610') in 0.002084083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/RedCoreFramework/Runtime/Core/AppManager.cs
+  artifactKey: Guid(742a77eb305234f0bafe9766df6bba46) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/RedCoreFramework/Runtime/Core/AppManager.cs using Guid(742a77eb305234f0bafe9766df6bba46) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '8d7cadb3e22d190e81635304e9ea5675') in 0.0016565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'cb48c0a70e60db68ea08246b79ca5b94') in 0.015132208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/2_Prefabs/UI/UI Elements/btn_.prefab
+  artifactKey: Guid(6b9859d2ad77b4c9d9c551e56c637ba4) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/2_Prefabs/UI/UI Elements/btn_.prefab using Guid(6b9859d2ad77b4c9d9c551e56c637ba4) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '438f843710ee30bf9901b49f96bf9f0d') in 0.041172125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/RedCoreFramework/Runtime/Utilities/Extensions/TransformExtra.cs
+  artifactKey: Guid(4e31fc9e085284cd1ad4d9861c94d927) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/RedCoreFramework/Runtime/Utilities/Extensions/TransformExtra.cs using Guid(4e31fc9e085284cd1ad4d9861c94d927) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'a3bd008dbd9784f64b3c72d002f0a927') in 0.001512625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/2_Prefabs/UI/UI Elements/Popup_.prefab
+  artifactKey: Guid(0c371ee593c4f4d70aed0927c9e2e05e) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/2_Prefabs/UI/UI Elements/Popup_.prefab using Guid(0c371ee593c4f4d70aed0927c9e2e05e) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'a0fd3d0177246a166b9b95a702635a7b') in 0.01787075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/0_Scenes/Manager.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/0_Scenes/Manager.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '27882e42b9ad89196f0ccbc3703fb25e') in 0.001392583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/5_Scripts/PackageManagerSetup/package_json_template.cs
+  artifactKey: Guid(dd5a85dfc2e414d4a953eec954ed1456) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/5_Scripts/PackageManagerSetup/package_json_template.cs using Guid(dd5a85dfc2e414d4a953eec954ed1456) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '200846a1d80df2a2d63286e9a48e699e') in 0.00152225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'b317ebe6123e4b76656987aa82de7fbd') in 0.001922375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/5_Scripts/Editor/RedMinS.RedCoreFramework.Editor.asmdef
+  artifactKey: Guid(487b0dd25e91b41408b301c4496ea83c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/5_Scripts/Editor/RedMinS.RedCoreFramework.Editor.asmdef using Guid(487b0dd25e91b41408b301c4496ea83c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'b4afe98d37c034b2ceef0a4121c5b3fc') in 0.001632333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/2_Prefabs/UI/UI Elements/txt_Contents.prefab
+  artifactKey: Guid(17a02ceae98ac44eca642a67de4041bd) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/2_Prefabs/UI/UI Elements/txt_Contents.prefab using Guid(17a02ceae98ac44eca642a67de4041bd) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '3a4ec5039f27250515ecf411e3239849') in 0.03880225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/5_Scripts/Editorrr/PackageManagerMigrationTool.cs
+  artifactKey: Guid(47bc1985d84c345aea383188d0fac224) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/5_Scripts/Editorrr/PackageManagerMigrationTool.cs using Guid(47bc1985d84c345aea383188d0fac224) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '430062e9662cde9247330ad1bbe3e687') in 0.001452917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph
+  artifactKey: Guid(a3d800b099a06e0478fb790c5e79057a) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph using Guid(a3d800b099a06e0478fb790c5e79057a) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '4588ad21297398688225abf3e452e409') in 0.017208792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/RedCoreFramework/Runtime/Features/Input/TouchManager.cs
+  artifactKey: Guid(9dc1778f5a3224346be035e680c6d39b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/RedCoreFramework/Runtime/Features/Input/TouchManager.cs using Guid(9dc1778f5a3224346be035e680c6d39b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '8561c691a9b1c505aba65a7922f36edb') in 0.001477917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/RedCoreFramework/Runtime/Features/UI/UITextRadioButton.cs
+  artifactKey: Guid(60f9fbdd84b534b098cba13429a8fde8) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/RedCoreFramework/Runtime/Features/UI/UITextRadioButton.cs using Guid(60f9fbdd84b534b098cba13429a8fde8) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '77396fc0e5c323ecc258e47c3b040ec0') in 0.00161875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/RedCoreFramework/Runtime/Utilities/Patterns/Singleton.cs
+  artifactKey: Guid(697f321000cd2496bb590ffa87d427ae) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/RedCoreFramework/Runtime/Utilities/Patterns/Singleton.cs using Guid(697f321000cd2496bb590ffa87d427ae) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '818d3090ae668e1a63c465c51059ee27') in 0.001456708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl
+  artifactKey: Guid(96de908384869cd409c75efa351d5edf) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl using Guid(96de908384869cd409c75efa351d5edf) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '01693f1a125f81ad408de076229cb6a7') in 0.001770209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png
+  artifactKey: Guid(7051dba417b3d53409f2918f1ea4938d) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png using Guid(7051dba417b3d53409f2918f1ea4938d) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '9c94e235ea7512ea6e644fb21161cc19') in 0.006757417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/4_Sounds/btn_click.wav
+  artifactKey: Guid(1f0437a11e0864af0a3e8c268c1242d3) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/4_Sounds/btn_click.wav using Guid(1f0437a11e0864af0a3e8c268c1242d3) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '33b8114aaed22e3c1a1dd5dd369eabfa') in 0.017065375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/5_Scripts/PackageGuide.cs
+  artifactKey: Guid(30fe1e51a7fc742729e9c15551fb1072) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/5_Scripts/PackageGuide.cs using Guid(30fe1e51a7fc742729e9c15551fb1072) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '213d4995c6b6f5a95d9185a283b3ebf8') in 0.001536709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/RedCoreFramework/Runtime/Features/UI/UIPageList.cs
+  artifactKey: Guid(7afb221fb18a14922aa8bf8da55b0ff4) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/RedCoreFramework/Runtime/Features/UI/UIPageList.cs using Guid(7afb221fb18a14922aa8bf8da55b0ff4) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'fe20269a843957426be86680af194826') in 0.012001791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/5_Scripts/FinalTemplateGuide.cs
+  artifactKey: Guid(fc3b28a405e7a4dfda6f9ca4200f136a) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/5_Scripts/FinalTemplateGuide.cs using Guid(fc3b28a405e7a4dfda6f9ca4200f136a) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '20ad45b0a42bcfce34943932733a3634') in 0.001647708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML
+  artifactKey: Guid(2e2c6224d345d9249acfa6e8ef40bb2d) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML using Guid(2e2c6224d345d9249acfa6e8ef40bb2d) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '92ebf1a62a790be5f94bc58615bda562') in 0.00175475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'b78d416a897ad669dc15c1dec142907d') in 0.002081917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph
+  artifactKey: Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph using Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '495d26e404398613c817057e52a5107c') in 0.017177458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/1_Graphics/Animations/UIFadeNot.anim
+  artifactKey: Guid(4230325aa962d458283a9a83062bdcc3) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/1_Graphics/Animations/UIFadeNot.anim using Guid(4230325aa962d458283a9a83062bdcc3) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '54cb38a77b29eb137fcd44829f7162e8') in 0.004797042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'ac798736cd0a55d249d1c11b10cf8e16') in 0.014260542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/RedCoreFramework/Runtime/Data/DesignDataContainer.cs
+  artifactKey: Guid(a2f0e603c875a4e84b7a978ccbade5ce) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/RedCoreFramework/Runtime/Data/DesignDataContainer.cs using Guid(a2f0e603c875a4e84b7a978ccbade5ce) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'b2a08aadcdcb2ea2dd0056c57a83fc35') in 0.001501708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/RedCoreFramework/Runtime/Features/UI/UITextViewer.cs
+  artifactKey: Guid(59ba8f15d3b7f4f5cbf5eb154f47bc3b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/RedCoreFramework/Runtime/Features/UI/UITextViewer.cs using Guid(59ba8f15d3b7f4f5cbf5eb154f47bc3b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'b8e564f19b8ee5d3377ab1a8b753b907') in 0.003042625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/RedCoreFramework/Runtime/Features/UI/UITextLabel.cs
+  artifactKey: Guid(856e42e00808f425b828a4fa707413fd) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/RedCoreFramework/Runtime/Features/UI/UITextLabel.cs using Guid(856e42e00808f425b828a4fa707413fd) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '43fc9fb33a027d8b1d986b24f08d93e4') in 0.0016285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+[usbmuxd] Detached: 9305 00008110-0002651834E1401E

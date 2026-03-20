@@ -1,0 +1,17 @@
+{
+    "name": "RedMinS.RedCoreFramework.Editor",
+    "rootNamespace": "RedMinS.RedCoreFramework.Editor",
+    "references": [
+        "GUID:0c65c7c5316044aa9a881c872e14d1b7",
+        "GUID:e022c4710c5f342fbba3e86a7575ee04"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

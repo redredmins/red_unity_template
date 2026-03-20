@@ -13,9 +13,10 @@
  * 6. UIInputManager (입력 처리)
  */
 
+
+/*
 using UnityEngine;
 using RedMinS;
-using RedMinS.UI;
 
 namespace RedMinS.Examples
 {
@@ -191,3 +192,4 @@ namespace RedMinS.Examples
         }
     }
 }
+*/

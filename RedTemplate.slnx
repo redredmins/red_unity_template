@@ -1,0 +1,6 @@
+﻿<Solution>
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="RedMinS.RedCoreFramework.Runtime.csproj" />
+  <Project Path="DOTween.Modules.csproj" />
+  <Project Path="RedMinS.RedCoreFramework.Editor.csproj" />
+</Solution>
