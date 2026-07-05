@@ -2,14 +2,14 @@ Unity Editor version:    6000.3.10f1 (e35f0c77bd8e)
 Branch:                  6000.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 26.3.1 (Build 25D2128)
-Darwin version:          25.3.0
+macOS version:           Version 26.5 (Build 25F71)
+Darwin version:          25.5.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        16384 MB
-Date:                    2026-04-03T02:13:55Z
+Date:                    2026-07-05T12:22:06Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mins" at "2026-04-03T02:13:55.440461Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mins" at "2026-07-05T12:22:06.458306Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/MacOS/Unity
@@ -23,7 +23,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61167
+64034
 -licensingIpc
 LicenseClient-mins
 -job-worker-count
@@ -70,14 +70,12 @@ Successfully changed project path to: /Users/mins/Dev/RedTemplate
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8778543360]  Target information:
+Player connection [8469864064]  Target information:
 
-Player connection [8778543360]  * "[IP] 192.168.0.38 [Port] 0 [Flags] 2 [Guid] 16669704 [EditorId] 16669704 [Version] 1048832 [Id] OSXEditor(0,MinSs-MacBook-Pro-16.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8469864064]  * "[IP] 172.16.11.238 [Port] 0 [Flags] 2 [Guid] 1301097322 [EditorId] 1301097322 [Version] 1048832 [Id] OSXEditor(0,MinSs-MacBook-Pro-16.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8778543360]  * "[IP] 192.168.0.26 [Port] 0 [Flags] 2 [Guid] 16669704 [EditorId] 16669704 [Version] 1048832 [Id] OSXEditor(0,MinSs-MacBook-Pro-16.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
-
-Player connection [8778543360] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8778543360] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8469864064] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8469864064] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 4
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -92,21 +90,21 @@ Library Redirect Path: Library/
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              6df25f2caa6e4fcebf8e51e390a6f68d
-  Correlation Id:          c2e58d2f2c85832267b46d780e037b14
-  External correlation Id: 6975309264756460914
+  Session Id:              6c1cfed8bee04480a65bca4ace56ae91
+  Correlation Id:          d21edb665110e48e42d800047d9717b9
+  External correlation Id: 257450125063461961
   Machine Id:              e3a26noi9J7rjxVUt6eOlNGf0nM=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-mins" (connect: 0.00s, validation: 0.00s, handshake: 0.66s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mins-notifications" at "2026-04-03T02:13:56.106185Z"
-[Licensing::Module] Licensing Background thread has ended after 0.67s
-[Licensing::Module] Licensing is initialized (took 0.20s).
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-mins-notifications" at "2026-07-05T12:22:07.118176Z"
+[Licensing::Module] Licensing Background thread has ended after 0.66s
+[Licensing::Module] Licensing is initialized (took 0.03s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 14569543840624-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-Refreshing native plugins compatible for Editor in 1.51 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -127,53 +125,53 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/Resources/Scripting/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56603
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.10f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.3.10f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.003374 seconds.
-- Loaded All Assemblies, in  0.371 seconds
+Registered in 0.002846 seconds.
+- Loaded All Assemblies, in  0.365 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 94 ms
+Android Extension - Scanning For ADB Devices 89 ms
 Native extension for OSXStandalone target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.531 seconds
-Domain Reload Profiling: 902ms
-	BeginReloadAssembly (145ms)
+- Finished resetting the current domain, in  0.578 seconds
+Domain Reload Profiling: 943ms
+	BeginReloadAssembly (132ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (150ms)
-		LoadAssemblies (152ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (158ms)
+		LoadAssemblies (133ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (140ms)
-			TypeCache.Refresh (139ms)
-				TypeCache.ScanAssembly (126ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (134ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (531ms)
+	FinalizeReload (578ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (496ms)
+		SetupLoadedEditorAssemblies (544ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (227ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (84ms)
-			ProcessInitializeOnLoadAttributes (124ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
+			InitializePlatformSupportModulesInManaged (275ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (122ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -184,8 +182,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.611 seconds
-Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
+- Loaded All Assemblies, in  0.594 seconds
+Refreshing native plugins compatible for Editor in 0.16 ms, found 1 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
@@ -195,35 +193,35 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.694 seconds
-Domain Reload Profiling: 1302ms
-	BeginReloadAssembly (113ms)
+- Finished resetting the current domain, in  0.618 seconds
+Domain Reload Profiling: 1212ms
+	BeginReloadAssembly (114ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (26ms)
+	RebuildCommonClasses (28ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (436ms)
-		LoadAssemblies (354ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (419ms)
+		LoadAssemblies (333ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (143ms)
-			TypeCache.Refresh (112ms)
-				TypeCache.ScanAssembly (96ms)
-			BuildScriptInfoCaches (23ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (694ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (102ms)
+			BuildScriptInfoCaches (24ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (618ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (529ms)
+		SetupLoadedEditorAssemblies (473ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (23ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (122ms)
-			ProcessInitializeOnLoadAttributes (333ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (305ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -235,445 +233,171 @@ WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wirefr
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launching external process: /Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/Helpers/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4682 unused Assets / (3.1 MB). Loaded Objects now: 5502.
-Memory consumption went from 118.6 MB to 115.5 MB.
-Total: 7.594291 ms (FindLiveObjects: 0.554875 ms CreateObjectMapping: 0.149250 ms MarkObjects: 5.573542 ms  DeleteObjects: 1.316416 ms)
+Unloading 4695 unused Assets / (4.2 MB). Loaded Objects now: 5515.
+Memory consumption went from 118.8 MB to 114.5 MB.
+Total: 9.465208 ms (FindLiveObjects: 1.069875 ms CreateObjectMapping: 0.160833 ms MarkObjects: 5.913167 ms  DeleteObjects: 2.319042 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1760014.729322 seconds.
-  path: Assets/RedCoreFramework/Runtime/UI/UIRadioButton.cs
-  artifactKey: Guid(12a1cdc54d1bd47fea6e8ac153347b25) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/RedCoreFramework/Runtime/UI/UIRadioButton.cs using Guid(12a1cdc54d1bd47fea6e8ac153347b25) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'c53fe8cba4830efdebf8eb45eaa8f8d4') in 0.046197958 seconds
+  Time since last request: 2696356.777999 seconds.
+  path: Assets/RedCoreFramework/Runtime/Common/SceneLoader.cs
+  artifactKey: Guid(a88ec548fc46846649d742cc898fe975) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/RedCoreFramework/Runtime/Common/SceneLoader.cs using Guid(a88ec548fc46846649d742cc898fe975) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '91348fb8cc7cfa7c1695bc17100b7b94') in 0.056177375 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/RedCoreFramework/Runtime/Resources/RedCoreFramework
+  artifactKey: Guid(4125b6dd1b49c4edf88e52f07470f88f) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/RedCoreFramework/Runtime/Resources/RedCoreFramework using Guid(4125b6dd1b49c4edf88e52f07470f88f) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'c252c388663d44b59465094f6233881e') in 0.002464041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/RedCoreFramework/Runtime/Data/StringTable.cs
+  artifactKey: Guid(827e2453b58b1470bac7c2fdac957bb5) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/RedCoreFramework/Runtime/Data/StringTable.cs using Guid(827e2453b58b1470bac7c2fdac957bb5) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '3ce9ad0943503efd720d450b56fb1459') in 0.001621458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/RedCoreFramework/Runtime/Core/MobileUIManager.cs
+  artifactKey: Guid(537ebd47b3d2848c3927625118687da8) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/RedCoreFramework/Runtime/Core/MobileUIManager.cs using Guid(537ebd47b3d2848c3927625118687da8) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'b9adfacc34c6acdc6b136bbf80286728') in 0.001424834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/RedCoreFramework/Runtime/Resources
+  artifactKey: Guid(ae9d7f225c6ee42a791a5ae952888f54) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/RedCoreFramework/Runtime/Resources using Guid(ae9d7f225c6ee42a791a5ae952888f54) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '1c88e4aa42926a4018ab242f95670241') in 0.00120775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000062 seconds.
-  path: Assets/RedCoreFramework/Runtime/Common/SceneLoader.cs
-  artifactKey: Guid(a88ec548fc46846649d742cc898fe975) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/RedCoreFramework/Runtime/Common/SceneLoader.cs using Guid(a88ec548fc46846649d742cc898fe975) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '2d7158b240b8621f15324c9d597cb6de') in 0.001826708 seconds
+  path: Assets/RedCoreFramework/Runtime/Data/DesignDataContainer.cs
+  artifactKey: Guid(a2f0e603c875a4e84b7a978ccbade5ce) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/RedCoreFramework/Runtime/Data/DesignDataContainer.cs using Guid(a2f0e603c875a4e84b7a978ccbade5ce) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '34e664dc4d3ab7b6cd8af279eda3be14') in 0.001386833 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/RedCoreFramework/Runtime/Core/SoundManager.cs
-  artifactKey: Guid(3b42ed6e1e06741ada9c91b9608b75cd) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/RedCoreFramework/Runtime/Core/SoundManager.cs using Guid(3b42ed6e1e06741ada9c91b9608b75cd) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '57e18241e02694be0aae330dd45901cb') in 0.001397917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/RedCoreFramework/Runtime/UI/UILocalizedImage.cs
-  artifactKey: Guid(4cf1ac735445143db9ae65de9ba6121c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/RedCoreFramework/Runtime/UI/UILocalizedImage.cs using Guid(4cf1ac735445143db9ae65de9ba6121c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '2908be5532b751dad04b15e081ece5ee') in 0.003045209 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/RedCoreFramework/Runtime/UI/UISwipePaging.cs
-  artifactKey: Guid(88c2935e83487499498ca6d466285e8f) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/RedCoreFramework/Runtime/UI/UISwipePaging.cs using Guid(88c2935e83487499498ca6d466285e8f) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '17dcff3eb77706e5d75e82086da27828') in 0.001753958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/RedCoreFramework/Runtime/UI/UITabMenu.cs
-  artifactKey: Guid(31473ec3357074286a184db05bf51489) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/RedCoreFramework/Runtime/UI/UITabMenu.cs using Guid(31473ec3357074286a184db05bf51489) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'eb39b2ee35217dc1425247b8be15e4f8') in 0.001601375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/RedCoreFramework/Runtime/Common/Extensions/TransformExtention.cs
-  artifactKey: Guid(548f2111d310f4df882a00148a12a9e7) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/RedCoreFramework/Runtime/Common/Extensions/TransformExtention.cs using Guid(548f2111d310f4df882a00148a12a9e7) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '1e4bd9ce658589f353409e88cf2b8e94') in 0.001779625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/RedCoreFramework/Runtime/UI/UIToast.cs
-  artifactKey: Guid(2d0a5c4e28112435b81946f5c6f6477d) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/RedCoreFramework/Runtime/UI/UIToast.cs using Guid(2d0a5c4e28112435b81946f5c6f6477d) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '583957a3edd78dc70c40f1dae9ebe70e') in 0.00164325 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/RedCoreFramework/Runtime/Core/DatabaseManager.cs
-  artifactKey: Guid(c1ea6b2b6573d4b23ae0834da4549f7c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/RedCoreFramework/Runtime/Core/DatabaseManager.cs using Guid(c1ea6b2b6573d4b23ae0834da4549f7c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '4f27f21758603716aa4680bf390609a7') in 0.001557875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/RedCoreFramework/Runtime/UI/UIChoosableSlot.cs
-  artifactKey: Guid(907930b3d4ee94bafb46345282d56080) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/RedCoreFramework/Runtime/UI/UIChoosableSlot.cs using Guid(907930b3d4ee94bafb46345282d56080) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '4d12c6e7ead4b35ae34f7c4ec53521f4') in 0.001678 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
+  Time since last request: 23.571509 seconds.
   path: Assets/RedCoreFramework/Runtime/Common/ObjectPool.cs
-  artifactKey: Guid(9c2289f090e5f47c4ae316bc589f3e03) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/RedCoreFramework/Runtime/Common/ObjectPool.cs using Guid(9c2289f090e5f47c4ae316bc589f3e03) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '53a459b085c2fa61fd5b007c13f2a964') in 0.00192225 seconds
+  artifactKey: Guid(9c2289f090e5f47c4ae316bc589f3e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedCoreFramework/Runtime/Common/ObjectPool.cs using Guid(9c2289f090e5f47c4ae316bc589f3e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '982c69c55c3366f60dfff1650bbe1b99') in 0.002110459 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/RedCoreFramework/Runtime/UI/UIPageWithTabMenu.cs
-  artifactKey: Guid(f5ca6f870c0ef49119962da9707cce75) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/RedCoreFramework/Runtime/UI/UIPageWithTabMenu.cs using Guid(f5ca6f870c0ef49119962da9707cce75) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'eaf17151f17b3e35bda68a1f0722b42e') in 0.001471 seconds
+  Time since last request: 0.622902 seconds.
+  path: Assets/RedCoreFramework/Runtime/Common/SceneLoader.cs
+  artifactKey: Guid(a88ec548fc46846649d742cc898fe975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedCoreFramework/Runtime/Common/SceneLoader.cs using Guid(a88ec548fc46846649d742cc898fe975) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3aaee4472ca0c8415c77a27feb106cac') in 0.000378875 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/RedCoreFramework/Runtime/UI/UIPopup.cs
-  artifactKey: Guid(d7f63f19654cf49fa8f7f4937e48f2fc) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/RedCoreFramework/Runtime/UI/UIPopup.cs using Guid(d7f63f19654cf49fa8f7f4937e48f2fc) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'ac5535e424e28d4748f374bf7b9ffa16') in 0.001793875 seconds
+  Time since last request: 15.222661 seconds.
+  path: Assets/RedCoreFramework/Runtime/Resources/RedCoreFramework/uiString_en.json
+  artifactKey: Guid(614aff5ba3a4248a696b75580213efd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedCoreFramework/Runtime/Resources/RedCoreFramework/uiString_en.json using Guid(614aff5ba3a4248a696b75580213efd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '088712767b3837f6e1265cba548558cd') in 0.05505575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.429229 seconds.
+  path: Assets/RedCoreFramework/Runtime/Resources/RedCoreFramework/uiString_jp.json
+  artifactKey: Guid(5ec8dae76faf94a2bb834c47a9704ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedCoreFramework/Runtime/Resources/RedCoreFramework/uiString_jp.json using Guid(5ec8dae76faf94a2bb834c47a9704ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c08b430e69a78d854bdebba776a53b81') in 0.000767458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.181307 seconds.
+  path: Assets/RedCoreFramework/Runtime/Resources/RedCoreFramework/uiString_kr.json
+  artifactKey: Guid(978480aa32fe94fc8893395400114f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedCoreFramework/Runtime/Resources/RedCoreFramework/uiString_kr.json using Guid(978480aa32fe94fc8893395400114f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '178101b38317c5d9a752d21d1effefda') in 0.00106675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.119353 seconds.
+  path: Assets/RedCoreFramework/Runtime/Core/AppManager.cs
+  artifactKey: Guid(742a77eb305234f0bafe9766df6bba46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedCoreFramework/Runtime/Core/AppManager.cs using Guid(742a77eb305234f0bafe9766df6bba46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25b3790ebe55761cee19b280928b4e5e') in 0.001090625 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
+  Time since last request: 10.294631 seconds.
+  path: Assets/RedCoreFramework/Runtime/Core/AuthManager.cs
+  artifactKey: Guid(c03022fe54155461fb52c0d8ba3ba049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedCoreFramework/Runtime/Core/AuthManager.cs using Guid(c03022fe54155461fb52c0d8ba3ba049) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd658589a3f68e6ebeafa11afb04371ad') in 0.00056025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.023472 seconds.
+  path: Assets/RedCoreFramework/Runtime/Core/DatabaseManager.cs
+  artifactKey: Guid(c1ea6b2b6573d4b23ae0834da4549f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedCoreFramework/Runtime/Core/DatabaseManager.cs using Guid(c1ea6b2b6573d4b23ae0834da4549f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51d37a283459ffb3f7bf7def3a5e88b7') in 0.000597834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.543624 seconds.
+  path: Assets/RedCoreFramework/Runtime/Core/MobileUIManager.cs
+  artifactKey: Guid(537ebd47b3d2848c3927625118687da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedCoreFramework/Runtime/Core/MobileUIManager.cs using Guid(537ebd47b3d2848c3927625118687da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75f0a3a16c2635600c7ee8adfc389a05') in 0.000902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.170001 seconds.
   path: Assets/RedCoreFramework/Runtime/Core/NetworkManager.cs
-  artifactKey: Guid(6b04bb77b46ac4b5ca7ae0da47df0431) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
-Start importing Assets/RedCoreFramework/Runtime/Core/NetworkManager.cs using Guid(6b04bb77b46ac4b5ca7ae0da47df0431) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'bad456ffde0a40034f65b35774dedfdd') in 0.00143125 seconds
+  artifactKey: Guid(6b04bb77b46ac4b5ca7ae0da47df0431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedCoreFramework/Runtime/Core/NetworkManager.cs using Guid(6b04bb77b46ac4b5ca7ae0da47df0431) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e22bd487ca481a9e5d1c915d3cbad1e8') in 0.000592625 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x17094b000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.734 seconds
-Refreshing native plugins compatible for Editor in 0.17 ms, found 1 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.613 seconds
-Domain Reload Profiling: 1349ms
-	BeginReloadAssembly (254ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (109ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (426ms)
-		LoadAssemblies (376ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (114ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (88ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (613ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (489ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (123ms)
-			ProcessInitializeOnLoadAttributes (303ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4680 unused Assets / (3.4 MB). Loaded Objects now: 5519.
-Memory consumption went from 136.1 MB to 132.6 MB.
-Total: 6.720000 ms (FindLiveObjects: 0.296167 ms CreateObjectMapping: 0.140667 ms MarkObjects: 5.223958 ms  DeleteObjects: 1.059042 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 74.778785 seconds.
-  path: Assets/RedCoreFramework/Runtime/RedMinS.RedCoreFramework.Runtime.asmdef
-  artifactKey: Guid(0c65c7c5316044aa9a881c872e14d1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RedCoreFramework/Runtime/RedMinS.RedCoreFramework.Runtime.asmdef using Guid(0c65c7c5316044aa9a881c872e14d1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1ab5a403b80f8e0ef0a0ee7f2c699fd') in 0.008116041 seconds
+  Time since last request: 12.523082 seconds.
+  path: Assets/RedCoreFramework/Runtime/Core/SoundManager.cs
+  artifactKey: Guid(3b42ed6e1e06741ada9c91b9608b75cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedCoreFramework/Runtime/Core/SoundManager.cs using Guid(3b42ed6e1e06741ada9c91b9608b75cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63e066c69e8bdf14182fb7ddb50d94a9') in 0.000481041 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Prepare
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Thread 0x16bd4f000 may have been prematurely finalized
-- Loaded All Assemblies, in  1.757 seconds
-Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.584 seconds
-Domain Reload Profiling: 2343ms
-	BeginReloadAssembly (1010ms)
-		ExecutionOrderSort (1ms)
-		DisableScriptedObjects (63ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (218ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (673ms)
-		LoadAssemblies (1070ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (148ms)
-			TypeCache.Refresh (39ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (99ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (584ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (475ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (115ms)
-			ProcessInitializeOnLoadAttributes (300ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4682 unused Assets / (3.5 MB). Loaded Objects now: 5524.
-Memory consumption went from 135.8 MB to 132.4 MB.
-Total: 6.631250 ms (FindLiveObjects: 0.238042 ms CreateObjectMapping: 0.129083 ms MarkObjects: 5.133625 ms  DeleteObjects: 1.130000 ms)
+Received Import Request.
+  Time since last request: 3.794666 seconds.
+  path: Assets/RedCoreFramework/Runtime/Core/TimeService.cs
+  artifactKey: Guid(d3c0d60e1b9d6430c9204a6bb87f143c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedCoreFramework/Runtime/Core/TimeService.cs using Guid(d3c0d60e1b9d6430c9204a6bb87f143c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '152a4b03d9df2b17d6e1020809406ca3') in 0.000393208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-Prepare: number of updated asset objects reloaded= 0
-[usbmuxd] Attached: 7535 00008110-0002651834E1401E
 ========================================================================
-Received Prepare
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Thread 0x16bd4f000 may have been prematurely finalized
-- Loaded All Assemblies, in  1.463 seconds
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.614 seconds
-Domain Reload Profiling: 2081ms
-	BeginReloadAssembly (800ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (32ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (127ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (600ms)
-		LoadAssemblies (945ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (122ms)
-			TypeCache.Refresh (19ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (92ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (614ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (492ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (58ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (101ms)
-			ProcessInitializeOnLoadAttributes (287ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.22 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4682 unused Assets / (3.4 MB). Loaded Objects now: 5527.
-Memory consumption went from 135.7 MB to 132.4 MB.
-Total: 6.392750 ms (FindLiveObjects: 0.232000 ms CreateObjectMapping: 0.126583 ms MarkObjects: 5.156375 ms  DeleteObjects: 0.877458 ms)
+Received Import Request.
+  Time since last request: 15.610653 seconds.
+  path: Assets/RedCoreFramework/Runtime/Core/UIManager.cs
+  artifactKey: Guid(10d6b82c5640d44499f40f3631dc2a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedCoreFramework/Runtime/Core/UIManager.cs using Guid(10d6b82c5640d44499f40f3631dc2a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33754192b2c7fc20e521b6b79fe03be9') in 0.000445375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Thread 0x16bcc3000 may have been prematurely finalized
-- Loaded All Assemblies, in  1.136 seconds
-Refreshing native plugins compatible for Editor in 0.16 ms, found 1 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.624 seconds
-Domain Reload Profiling: 1763ms
-	BeginReloadAssembly (497ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (160ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (583ms)
-		LoadAssemblies (651ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (143ms)
-			TypeCache.Refresh (23ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (108ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (624ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (510ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (110ms)
-			ProcessInitializeOnLoadAttributes (338ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4682 unused Assets / (3.4 MB). Loaded Objects now: 5530.
-Memory consumption went from 135.8 MB to 132.4 MB.
-Total: 6.211625 ms (FindLiveObjects: 0.292333 ms CreateObjectMapping: 0.127042 ms MarkObjects: 4.828334 ms  DeleteObjects: 0.963750 ms)
+Received Import Request.
+  Time since last request: 0.678553 seconds.
+  path: Assets/RedCoreFramework/Runtime/Core/UserData.cs
+  artifactKey: Guid(cc82bc7ef43e846a98fb378b6923171a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RedCoreFramework/Runtime/Core/UserData.cs using Guid(cc82bc7ef43e846a98fb378b6923171a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48b742c6547fbe4f0ca000bff37a86ba') in 0.000432792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-[Licensing::Client] Successfully resolved entitlement details
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Thread 0x16c00b000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.864 seconds
-Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.596 seconds
-Domain Reload Profiling: 1465ms
-	BeginReloadAssembly (191ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (60ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (621ms)
-		LoadAssemblies (494ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (187ms)
-			TypeCache.Refresh (23ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (137ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (596ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (477ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (112ms)
-			ProcessInitializeOnLoadAttributes (301ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.22 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4682 unused Assets / (3.3 MB). Loaded Objects now: 5533.
-Memory consumption went from 135.8 MB to 132.5 MB.
-Total: 6.654833 ms (FindLiveObjects: 0.240375 ms CreateObjectMapping: 0.132916 ms MarkObjects: 5.216750 ms  DeleteObjects: 1.062750 ms)
-
-Prepare: number of updated asset objects reloaded= 0
